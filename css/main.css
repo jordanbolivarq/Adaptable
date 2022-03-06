@@ -1,8 +1,63 @@
 body{
-    background: url(../img/wireframe.jpg);
+    /*background: url(../img/wireframe.jpg);*/
     /*background-repeat: no-repeat;*/
-    width:480px;
-    height: 3079px;
-    margin:0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 360px;
+    height: 2752px;
+    /*margin:20px;*/
+    max-resolution: 0;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    position:relative;
+}
+
+#inicio img{
+    width: 75px;
+    height: 50px;
+}
+#menuNav button{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/sample.jpg);
+    cursor: pointer;
+}
+#listaMenu{
+    display: none;
+}
+.centerText{
+  margin:5px;
+  text-align: center;
+}
+#p1{
+  align-items: center;
+}
+.title{
+    display:flex;
+  align-items: center;
+  justify-content:space-evenly;
+  width:360px;
+  height:60px;
+  margin:0 auto;
+  background:darkgrey;
+}
+.proyecto{
+  width: 160px;
+    height: 315px;
+    background:lightgrey;
+}
+.proyecto img{
+  width: 140px;
+    height: 95px;
+}
+.persona img{
+  width: 130px;
+    height: 170px;
+}
+.parallel{
+  display:flex;
+  align-items: center;
+  justify-content:space-evenly;
+  margin:10px;
+}
+#textBox{
+  width: 320px;
+    height: 170px;
 }
