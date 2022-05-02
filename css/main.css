@@ -122,9 +122,10 @@ display: none;
     width: 100%;
     height: 400px;
 }
-#ImgportadaDown{
-width: 100%;
-    height: 100px;
+#ImgPortadaDown{
+align-items: center;
+    width: 100%;
+    height: 150px;
 }
 .proyecto{
   width: 250px;
