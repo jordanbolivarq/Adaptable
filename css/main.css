@@ -116,7 +116,7 @@ body{
   align-items: center;
 }
 #logoTop{
-
+  position: absolute;
 }
 #ImgPortada{
     width: 541;
