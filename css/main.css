@@ -83,7 +83,7 @@ body{
   align-items: center;
 }
 #ImgPortada{
-
+display: none;
 }
 .proyecto{
   width: 160px;
@@ -116,11 +116,15 @@ body{
   align-items: center;
 }
 #logoTop{
-  position: absolute;
+
 }
 #ImgPortada{
-    width: 541;
+    width: 100%;
     height: 400px;
+}
+#ImgportadaDown{
+width: 100%;
+    height: 100px;
 }
 .proyecto{
   width: 250px;
