@@ -13,7 +13,6 @@ body{
 #inicio img{
     width: 75px;
     height: 50px;
-    z-index:1;
 }
 #menuNav button{
     width: 50px;
@@ -120,7 +119,7 @@ body{
 
 }
 #ImgPortada{
-    width: 541px;
+    width: 541;
     height: 400px;
 }
 .proyecto{
