@@ -27,10 +27,7 @@ body{
   margin:5px;
   text-align: center;
 }
-#p1{
-  text-align: center;
-  align-items: center;
-}
+
 
 .title{
   display:flex;
@@ -49,28 +46,10 @@ body{
     text-align: center;
   align-items: center;
 }*/
-.proyecto{
-  width: 160px;
-    height: 315px;
-    background:lightgrey;
-}
-.proyecto img{
-  width: 140px;
-    height: 95px;
-      display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.persona img{
-  width: 130px;
-    height: 170px;
-}
-.parallel{
-  display:flex;
-  align-items: center;
-  justify-content:space-evenly;
-  margin:10px;
-}
+
+
+
+
 #textBox{
   width: 320px;
     height: 170px;
@@ -99,13 +78,96 @@ body{
 
 @media only screen and  (min-width: 320px) and (max-width: 540px)
 {
-
+  #p1{
+  text-align: center;
+  align-items: center;
 }
+.proyecto{
+  width: 160px;
+    height: 315px;
+    background:lightgrey;
+}
+.proyecto img{
+  width: 140px;
+    height: 95px;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.persona img{
+  width: 130px;
+    height: 170px;
+}
+.parallel{
+  display:flex;
+  align-items: center;
+  justify-content:space-evenly;
+  margin:10px;
+}
+}
+
 @media only screen and (min-width: 541px) and (max-width: 1024px)
 { 
-
+#p1{
+  text-align: center;
+  align-items: center;
 }
+.proyecto{
+  width: 250px;
+    height: 315px;
+    background:lightgrey;
+}
+.proyecto img{
+  width: 140px;
+    height: 95px;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.persona {
+  display: flex;
+  margin:10px;
+  justify-content:space-around;
+  align-items: center;
+  text-align: left;
+}
+.persona p{
+width: 300px
+}
+.persona img{
+  width: 130px;
+    height: 170px;
+}
+.parallel{
+  /*display:flex;
+  align-items: center;
+  justify-content:space-evenly;*/
+  margin:10px;
+}
+}
+
 @media only screen and (min-width: 1025px)
 {
-
+.proyecto{
+  width: 160px;
+    height: 315px;
+    background:lightgrey;
+}
+.proyecto img{
+  width: 140px;
+    height: 95px;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.persona img{
+  width: 130px;
+    height: 170px;
+}
+.parallel{
+  display:flex;
+  align-items: center;
+  justify-content:space-evenly;
+  margin:10px;
+}
 }
