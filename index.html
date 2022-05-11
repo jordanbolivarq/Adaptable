@@ -10,8 +10,9 @@
 <body>
 	<section id="HOME">
 		<nav id="inicio" class="title">
-			<div id="menuNav">
-				<button>Menú</button>
+			<div class="menuHaborguesa">
+			<div id="menuNav" class="botonesTop">
+				<button onclick="abrirMenu()">Menú</button>
 			</div>
 			<ul id="listaMenu">
 				<li>Item1</li>
@@ -19,8 +20,9 @@
 				<li>Item3</li>
 				<li>Item4</li>
 			</ul>
+			</div>
 			<h1>Nombre de la empresa</h1>
-			<img src="img/sample.jpg" alt="">
+			<img class="botonesTop" src="img/sample.jpg" alt="">
 		</nav>
 
 		<div id="p1">
@@ -105,7 +107,7 @@
 				</section>
 
 				<!-- derecha -->
-				<section class="persona">
+				<section id="reversa" class="persona">
 
 				<div>
 				<img src="img/sample.jpg" alt="">		
@@ -164,5 +166,6 @@
 			</p>
 		</section>
 	</section>
+	<script src="script.js"> </script>
 </body>
 </html>
